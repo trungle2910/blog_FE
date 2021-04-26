@@ -1,0 +1,22 @@
+/*=====================
+  Main CSS
+======================*/
+@import url("./stylesheets/GlobalStyles.css");
+@import url("./stylesheets//UtilityStyles.css");
+
+@import url("./stylesheets/componentStyles/NavigationBarStyles.css");
+@import url("./stylesheets/componentStyles/SearchBarStyles.css");
+@import url("./stylesheets/componentStyles/LoaderStyles.css");
+@import url("./stylesheets/componentStyles/EditButtonStyle.css");
+
+@import url("./stylesheets/pageStyles/HomePage.css");
+@import url("./stylesheets/pageStyles/LoginPage.css");
+/*=====================
+  Custom variables
+======================*/
+:root  {
+  --bg-dark-1: #191919;
+  --bg-trans-dark-2: rgba(0, 0, 0, 0.7);
+  --skin-color: #e46c37;
+  --skin-color-2: #e84e2a;
+}
